@@ -1,0 +1,80 @@
+#sky_seo_box {
+	.sky-seo-field {
+		margin: 20px 0;
+		.sky-seo-input,
+		.sky-seo-label {
+			display: inline-block;
+		    vertical-align: top;
+		    float: left;
+		}
+		.sky-seo-label {
+		    width: 24%;
+			label {
+				vertical-align: middle;
+			}
+		}
+		.sky-seo-input {
+			width: 74%;
+			input,
+			textarea {
+				width: 100%;
+			}
+		}
+		&:after {
+			display: table;
+			content: '';
+			clear: both;
+		}
+	}
+}
+
+.sky-seo-settings {
+	header {
+		padding: 20px 0;
+		h1 {
+			font-size: 20px;
+		    text-transform: uppercase;
+		    color: #0C511C;
+		}
+	}
+	section {
+		table {
+			thead {
+				tr {
+					th {
+						background-color: #D3D3D3;
+					    color: #553838;
+					    font-weight: bold;
+					    text-transform: uppercase;
+					}
+				}
+			}
+			tbody {
+				tr {
+					td {
+						input[type=text], 
+						input[type=password], 
+						input[type=checkbox], 
+						input[type=color], 
+						input[type=date], 
+						input[type=datetime], 
+						input[type=datetime-local], 
+						input[type=email], 
+						input[type=month], 
+						input[type=number], 
+						input[type=radio], 
+						input[type=tel], 
+						input[type=time], 
+						input[type=url], 
+						input[type=week], 
+						input[type=search], 
+						select, 
+						textarea {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

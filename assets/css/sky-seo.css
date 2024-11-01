@@ -1,0 +1,61 @@
+#sky_seo_box .sky-seo-field {
+  margin: 20px 0;
+}
+#sky_seo_box .sky-seo-field .sky-seo-input,
+#sky_seo_box .sky-seo-field .sky-seo-label {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+#sky_seo_box .sky-seo-field .sky-seo-label {
+  width: 24%;
+}
+#sky_seo_box .sky-seo-field .sky-seo-label label {
+  vertical-align: middle;
+}
+#sky_seo_box .sky-seo-field .sky-seo-input {
+  width: 74%;
+}
+#sky_seo_box .sky-seo-field .sky-seo-input input,
+#sky_seo_box .sky-seo-field .sky-seo-input textarea {
+  width: 100%;
+}
+#sky_seo_box .sky-seo-field:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+.sky-seo-settings header {
+  padding: 20px 0;
+}
+.sky-seo-settings header h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #0C511C;
+}
+.sky-seo-settings section table thead tr th {
+  background-color: #D3D3D3;
+  color: #553838;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sky-seo-settings section table tbody tr td input[type=text],
+.sky-seo-settings section table tbody tr td input[type=password],
+.sky-seo-settings section table tbody tr td input[type=checkbox],
+.sky-seo-settings section table tbody tr td input[type=color],
+.sky-seo-settings section table tbody tr td input[type=date],
+.sky-seo-settings section table tbody tr td input[type=datetime],
+.sky-seo-settings section table tbody tr td input[type=datetime-local],
+.sky-seo-settings section table tbody tr td input[type=email],
+.sky-seo-settings section table tbody tr td input[type=month],
+.sky-seo-settings section table tbody tr td input[type=number],
+.sky-seo-settings section table tbody tr td input[type=radio],
+.sky-seo-settings section table tbody tr td input[type=tel],
+.sky-seo-settings section table tbody tr td input[type=time],
+.sky-seo-settings section table tbody tr td input[type=url],
+.sky-seo-settings section table tbody tr td input[type=week],
+.sky-seo-settings section table tbody tr td input[type=search],
+.sky-seo-settings section table tbody tr td select,
+.sky-seo-settings section table tbody tr td textarea {
+  width: 100%;
+}
